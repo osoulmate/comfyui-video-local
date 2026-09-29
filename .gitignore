@@ -5,6 +5,9 @@ ComfyUI/
 # ---- 下载暂存 ----
 models_cache/
 
+# ---- 生成视频/音频（体积大，不入库）----
+*.mp4
+
 # ---- Python ----
 __pycache__/
 *.py[cod]
