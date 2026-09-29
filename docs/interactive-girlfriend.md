@@ -110,6 +110,8 @@ LLM + 克隆音色 TTS + MuseTalk 对口型，让"girl.png 本人"开口。
 
 - 位置：`~/Open-LLM-VTuber`（conda env `vtuber`），启动：
   `conda activate vtuber && cd ~/Open-LLM-VTuber && python run_server.py`（edge-tts 需代理，先 `export https_proxy=http://127.0.0.1:7890`）
+- **重要：代理必须配 no_proxy 排除内网 LLM**（2026-09-29 故障根因）：只设 `http_proxy` 时，访问 hintlab 内网地址 `192.168.3.6` 会被 clash 代理转发 → 网关 502 → 前端报 "Error calling the chat endpoint"。正确启动环境：
+  `export https_proxy=http://127.0.0.1:7890 http_proxy=http://127.0.0.1:7890 no_proxy="192.168.3.6,127.0.0.1,localhost" NO_PROXY="192.168.3.6,127.0.0.1,localhost"`
 - 访问：`http://<本机IP>:12393`，浏览器允许麦克风即可语音对话，也可文字输入
 - 配置：`conf.yaml` —— LLM=hintlab `qwen3.8-27b`（temperature 0.8），ASR=SenseVoice(sherpa-onnx, CPU)，TTS=edge-tts 晓晓，人设"小离"
 - 端到端已验证：文本/语音 → ASR → LLM（in-character 回复）→ TTS 音频流 ✓，正常一轮 8~20 秒
