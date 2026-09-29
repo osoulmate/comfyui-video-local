@@ -1,0 +1,23 @@
+# ---- 第三方主程序（git clone 安装，见 scripts/01_install_comfyui.sh）----
+# 含 models/ 大模型权重与 output/ 生成结果，体积巨大，不入库
+ComfyUI/
+
+# ---- 下载暂存 ----
+models_cache/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# ---- 密钥与本地配置（API key 等，禁止入库）----
+.env
+*.local.yaml
+conf.local.yaml
+secrets.*
+
+# ---- 日志与临时文件 ----
+*.log
+tmp/
+.DS_Store

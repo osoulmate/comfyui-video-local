@@ -1,0 +1,7 @@
+file '/home/zhangqingya/vc/ComfyUI/output/video/clip1_test_00001_.mp4'
+file '/home/zhangqingya/vc/ComfyUI/output/video/clip2_00001_.mp4'
+file '/home/zhangqingya/vc/ComfyUI/output/video/clip3_00001_.mp4'
+file '/home/zhangqingya/vc/ComfyUI/output/video/clip4_00002_.mp4'
+file '/home/zhangqingya/vc/ComfyUI/output/video/clip5_00001_.mp4'
+file '/home/zhangqingya/vc/ComfyUI/output/video/clip6_00001_.mp4'
+file '/home/zhangqingya/vc/ComfyUI/output/video/clip7_00001_.mp4'

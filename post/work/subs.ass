@@ -1,0 +1,21 @@
+[Script Info]
+PlayResX: 1280
+PlayResY: 736
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: F,Noto Sans CJK SC,36,&H00E8B9F2,&H00E8B9F2,&H80202020,&H00000000,0,0,0,0,100,100,1,0,1,1.2,1,1,60,20,300,1
+Style: M,Noto Sans CJK SC,36,&H00FFFFFF,&H00FFFFFF,&H80202020,&H00000000,0,0,0,0,100,100,1,0,1,1.2,1,1,60,20,300,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.61,0:00:04.39,F,,0,0,0,,◉ {\k25}说{\k25}吧{\k25}…{\k25}…{\k25}今{\k25}天{\k25}想{\k25}看{\k25}什{\k25}么{\k25}？
+Dialogue: 0,0:00:05.27,0:00:06.77,M,,0,0,0,,◈ {\k30}想{\k30}看{\k30}J{\k30}K{\k30}。
+Dialogue: 0,0:00:06.77,0:00:09.37,F,,0,0,0,,◉ {\k37}好{\k37}，{\k37}等{\k37}我{\k37}一{\k37}下{\k37}。
+Dialogue: 0,0:00:13.42,0:00:17.37,F,,0,0,0,,◉ {\k26}噔{\k26}噔{\k26}～{\k26}我{\k26}回{\k26}来{\k26}了{\k26}，{\k26}老{\k26}公{\k26}，{\k26}怎{\k26}么{\k26}样{\k26}？
+Dialogue: 0,0:00:17.17,0:00:18.67,M,,0,0,0,,◈ {\k30}嗯{\k30}，{\k30}不{\k30}错{\k30}。
+Dialogue: 0,0:00:18.43,0:00:20.23,F,,0,0,0,,◉ {\k22}等{\k22}等{\k22}～{\k22}还{\k22}有{\k22}一{\k22}套{\k22}。
+Dialogue: 0,0:00:22.88,0:00:25.08,F,,0,0,0,,◉ {\k54}这{\k54}套{\k54}呢{\k54}？
+Dialogue: 0,0:00:25.78,0:00:27.28,M,,0,0,0,,◈ {\k25}这{\k25}套{\k25}也{\k25}好{\k25}看{\k25}。
+Dialogue: 0,0:00:27.95,0:00:31.55,F,,0,0,0,,◉ {\k25}机{\k25}会{\k25}用{\k25}完{\k25}啦{\k25}。{\k25}老{\k25}公{\k25}想{\k25}留{\k25}哪{\k25}套{\k25}呢{\k25}？
